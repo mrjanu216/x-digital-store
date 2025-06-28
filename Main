@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X Digital Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+    }
+    header {
+      background: linear-gradient(90deg, #1f1f1f, #2b2b2b);
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 2px solid #00ffc3;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #00ffc3;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #00ffc3;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #1a1a1a;
+    }
+    #hero h2 {
+      font-size: 2rem;
+      color: #00ffc3;
+    }
+    #products, #payment, #contact {
+      padding: 2rem 1rem;
+      background: #121212;
+      border-top: 1px solid #222;
+    }
+    h2 {
+      color: #00ffc3;
+      margin-bottom: 1rem;
+    }
+    .product {
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 1rem;
+      margin: 1rem 0;
+      background: #1c1c1c;
+      box-shadow: 0 0 10px #00ffc3aa;
+    }
+    .product h3 {
+      margin: 0 0 0.5rem;
+      color: #ffffff;
+    }
+    .product p {
+      margin: 0;
+      color: #c0c0c0;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.2rem;
+    }
+    a {
+      color: #00ffc3;
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0a0a0a;
+      border-top: 2px solid #00ffc3;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>X Digital Store</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#payment">Payment</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Welcome to the #1 Digital Shop</h2>
+    <p>Buy PUBG tools, premium accounts, SIM data tools, and more!</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <h3>PUBG ESP Hack – 7 Days</h3>
+      <p>Price: PKR 800</p>
+    </div>
+    <div class="product">
+      <h3>Netflix Premium – 1 Month</h3>
+      <p>Price: PKR 400</p>
+    </div>
+    <div class="product">
+      <h3>SIM Database 2024</h3>
+      <p>Price: PKR 1000</p>
+    </div>
+    <div class="product">
+      <h3>TikTok Followers – 5K</h3>
+      <p>Price: PKR 600</p>
+    </div>
+  </section>
+
+  <section id="payment">
+    <h2>How to Pay</h2>
+    <p>Send payment via:</p>
+    <ul>
+      <li>Easypaisa: 03147834681 – SADEES AHMAD</li>
+      <li>JazzCash: 03147834681 – SADESS AHMAD</li>
+    </ul>
+    <p>After payment, send screenshot and product name to our Telegram bot.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Delivery</h2>
+    <p>After payment, send your details to:</p>
+    <a href="https://t.me/your_bot_link" target="_blank">👉 Telegram Bot</a><br />
+    <a href="https://t.me/your_admin_link" target="_blank">📞 Contact Admin</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 X Digital Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
